@@ -12,16 +12,28 @@ struct ContentView: View {
         ProgressView(value: 10, total: 15)
         HStack {
 
-            VStack {
+            VStack (alignment: .leading){
                 Text("Seconds Elapsed")
+                    .font(.caption)
                 Label("300", systemImage: "hourglass.tophalf.fill")
             }
-            VStack{
+            Spacer()
+            VStack (alignment: .trailing){
                 Text("Seconds Remaining")
+                    .font(.caption2)
                 Label("600", systemImage: "hourglass.bottomhalf.fill")
             }
         }
+        Circle()
+            .strokeBorder(lineWidth: 24)
         .padding()
+        HStack {
+            Text("Speak 1 of 3")
+            Spacer()
+            Button(action: {}){
+                Image(systemName: "forward.fill")
+            }
+        }.padding()
     }
 }
 
