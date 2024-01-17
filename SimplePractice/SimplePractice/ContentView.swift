@@ -9,11 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ProgressView(value: 10, total: 15)
+        HStack {
+
+            VStack {
+                Text("Seconds Elapsed")
+                Label("300", systemImage: "hourglass.tophalf.fill")
+            }
+            VStack{
+                Text("Seconds Remaining")
+                Label("600", systemImage: "hourglass.bottomhalf.fill")
+            }
         }
         .padding()
     }
