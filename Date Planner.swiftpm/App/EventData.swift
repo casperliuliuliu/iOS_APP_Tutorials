@@ -6,13 +6,14 @@ import SwiftUI
 
 class EventData: ObservableObject {
     @Published var events: [Event] = [
-        Event(symbol: "gift.fill",
+        Event(symbol: "cat.circle",
               color: .red,
               title: "Maya's Birthday",
               tasks: [EventTask(text: "Guava kombucha"),
                       EventTask(text: "Paper cups and plates"),
                       EventTask(text: "Cheese plate"),
                       EventTask(text: "Party poppers"),
+                      EventTask(text: "Go home"),
                      ],
               date: Date.roundedHoursFromNow(60 * 60 * 24 * 30)),
         Event(symbol: "theatermasks.fill",
