@@ -6,34 +6,36 @@
 	<dict>
 		<key>manifestData</key>
 		<data>
-		eyJkZXBlbmRlbmNpZXMiOltdLCJuYW1lIjoiQ2FtZXJhQ2hhbGxlbmdlIiwi
-		cGFja2FnZUtpbmQiOiJyb290IiwicGxhdGZvcm1zIjpbeyJvcHRpb25zIjpb
-		XSwicGxhdGZvcm1OYW1lIjoiaW9zIiwidmVyc2lvbiI6IjE1LjIifV0sInBy
-		b2R1Y3RzIjpbeyJuYW1lIjoiQ2FtZXJhQ2hhbGxlbmdlIiwic2V0dGluZ3Mi
-		Olt7InRlYW1JZGVudGlmaWVyIjpbIkE5M0E1Q00yNzgiXX0seyJkaXNwbGF5
-		VmVyc2lvbiI6WyIxLjAiXX0seyJidW5kbGVWZXJzaW9uIjpbIjEiXX0seyJp
-		T1NBcHBJbmZvIjpbeyJhY2NlbnRDb2xvckFzc2V0TmFtZSI6IkFjY2VudENv
-		bG9yIiwiY2FwYWJpbGl0aWVzIjpbXSwiaWNvbkFzc2V0TmFtZSI6IkFwcElj
-		b24iLCJzdXBwb3J0ZWREZXZpY2VGYW1pbGllcyI6WyJwYWQiLCJwaG9uZSJd
-		LCJzdXBwb3J0ZWRJbnRlcmZhY2VPcmllbnRhdGlvbnMiOltdfV19XSwidGFy
-		Z2V0cyI6WyJDYW1lcmFDaGFsbGVuZ2UiXSwidHlwZSI6eyJleGVjdXRhYmxl
-		IjpudWxsfX1dLCJ0YXJnZXRNYXAiOnsiQ2FtZXJhQ2hhbGxlbmdlIjp7ImRl
-		cGVuZGVuY2llcyI6W10sImV4Y2x1ZGUiOltdLCJuYW1lIjoiQ2FtZXJhQ2hh
-		bGxlbmdlIiwicGF0aCI6IkNhbWVyYUNoYWxsZW5nZSIsInJlc291cmNlcyI6
-		W10sInNldHRpbmdzIjpbXSwidHlwZSI6ImV4ZWN1dGFibGUifX0sInRhcmdl
-		dHMiOlt7ImRlcGVuZGVuY2llcyI6W10sImV4Y2x1ZGUiOltdLCJuYW1lIjoi
-		Q2FtZXJhQ2hhbGxlbmdlIiwicGF0aCI6IkNhbWVyYUNoYWxsZW5nZSIsInJl
-		c291cmNlcyI6W10sInNldHRpbmdzIjpbXSwidHlwZSI6ImV4ZWN1dGFibGUi
-		fV0sInRvb2xzVmVyc2lvbiI6eyJfdmVyc2lvbiI6IjUuNS4wIn19
+		eyJkZXBlbmRlbmNpZXMiOltdLCJkaXNwbGF5TmFtZSI6IkNhcHR1cmluZyBQ
+		aG90b3MiLCJwYWNrYWdlS2luZCI6eyJyb290Ijp7fX0sInBsYXRmb3JtcyI6
+		W3sib3B0aW9ucyI6W10sInBsYXRmb3JtTmFtZSI6ImlvcyIsInZlcnNpb24i
+		OiIxNi4wIn1dLCJwcm9kdWN0cyI6W3sibmFtZSI6IkNhcHR1cmluZyBQaG90
+		b3MiLCJzZXR0aW5ncyI6W3siZGlzcGxheVZlcnNpb24iOlsiMS4wIl19LHsi
+		YnVuZGxlVmVyc2lvbiI6WyIxIl19LHsiaU9TQXBwSW5mbyI6W3siYXBwSWNv
+		biI6eyJhc3NldCI6eyJuYW1lIjoiQXBwSWNvbiJ9fSwiY2FwYWJpbGl0aWVz
+		IjpbeyJwdXJwb3NlIjoiY2FtZXJhIiwicHVycG9zZVN0cmluZyI6IlRoaXMg
+		c2FtcGxlIGFwcCB1c2VzIHRoZSBjYW1lcmEuIn0seyJwdXJwb3NlIjoicGhv
+		dG9MaWJyYXJ5IiwicHVycG9zZVN0cmluZyI6IlRoaXMgc2FtcGxlIGFwcCB1
+		c2VzIHlvdXIgcGhvdG8gbGlicmFyeS4ifV0sInN1cHBvcnRlZERldmljZUZh
+		bWlsaWVzIjpbInBhZCIsInBob25lIl0sInN1cHBvcnRlZEludGVyZmFjZU9y
+		aWVudGF0aW9ucyI6W119XX1dLCJ0YXJnZXRzIjpbIkFwcCJdLCJ0eXBlIjp7
+		ImV4ZWN1dGFibGUiOm51bGx9fV0sInRhcmdldE1hcCI6eyJBcHAiOnsiZGVw
+		ZW5kZW5jaWVzIjpbXSwiZXhjbHVkZSI6W10sIm5hbWUiOiJBcHAiLCJwYWNr
+		YWdlQWNjZXNzIjpmYWxzZSwicGF0aCI6IkFwcCIsInJlc291cmNlcyI6W10s
+		InNldHRpbmdzIjpbXSwidHlwZSI6ImV4ZWN1dGFibGUifX0sInRhcmdldHMi
+		Olt7ImRlcGVuZGVuY2llcyI6W10sImV4Y2x1ZGUiOltdLCJuYW1lIjoiQXBw
+		IiwicGFja2FnZUFjY2VzcyI6ZmFsc2UsInBhdGgiOiJBcHAiLCJyZXNvdXJj
+		ZXMiOltdLCJzZXR0aW5ncyI6W10sInR5cGUiOiJleGVjdXRhYmxlIn1dLCJ0
+		b29sc1ZlcnNpb24iOnsiX3ZlcnNpb24iOiI1LjYuMCJ9fQ==
 		</data>
 		<key>manifestHash</key>
 		<data>
-		qFneFbEjeSybThjfR3/k5oPCGR9AOXklt/3aWOxg4FI=
+		TXWfQyWGB1Qzp/sLXjx79S+QoYJ1ToMaj3b07dijuCY=
 		</data>
 		<key>schemaVersion</key>
-		<integer>3</integer>
+		<integer>4</integer>
 		<key>swiftPMVersionString</key>
-		<string>5.5.0</string>
+		<string>5.9.0</string>
 	</dict>
 </dict>
 </plist>

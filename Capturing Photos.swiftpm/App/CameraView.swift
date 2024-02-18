@@ -32,7 +32,7 @@ struct CameraView: View {
                             .accessibilityLabel("View Finder")
                             .accessibilityAddTraits([.isImage])
                     }
-                    .background(.black)
+                    .background(.white)
             }
             .task {
                 await model.camera.start()
